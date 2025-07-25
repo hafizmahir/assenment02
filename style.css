@@ -554,3 +554,15 @@ body {
         justify-content: flex-start;
     }
 }
+
+@media (max-width: 768px) {
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .plant-card:nth-child(n+7) {
+        display: none;
+
+    }
+}
